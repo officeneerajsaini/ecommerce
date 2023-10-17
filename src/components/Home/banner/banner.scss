@@ -1,0 +1,158 @@
+@import "../../../css-config/mixins.scss";
+
+.hero-banner {
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    height: 100vh;
+    @include md {
+       //
+    }
+
+    .content {
+        display: flex;
+        position: relative;
+        top: -60px;
+        color: white;
+        flex-direction: column-reverse;
+        height: 100%;
+        max-width: 1200px;
+        justify-content: flex-end;
+        margin: 0 auto;
+        align-items: center;
+        padding: 10px;
+        
+        @include md {
+            flex-direction: row;
+            position: static;
+        }
+        @include lg {
+        }
+
+        .text-contents {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: -25px;
+            width: max-content;
+
+            @include md {
+                 position:static;
+                // left: 10%;
+            }
+
+            @include lg {
+                top: 15%;
+            }
+
+            @include xxl {
+                left: 0;
+            }
+
+            .p1 {
+                font-weight: 600;
+                margin-bottom: 5px;
+                margin: 0 auto;
+                font-size: 100px;
+
+                @include sm {
+                    font-size: 100px;
+
+                }
+                @include md {
+                    font-size: 120px;
+
+                }
+                @include xl {
+                    font-size: 150px;
+
+                }
+            }
+
+            .p2 {
+                font-size: 14px;
+                max-width: 540px;
+                line-height: 25px;
+                margin-bottom: 20px;
+
+                @include sm {
+                    font-size: 14px;
+                }
+
+                @include md {
+                    // line-height: 1.5;
+                    // margin-bottom: 40px;
+                    margin-left: 10px;
+                }
+
+                @include lg {
+                    font-size: 16px;
+                }
+            }
+
+            .ctas {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                .banner-cta {
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    border: 2px solid white;
+                    cursor: pointer;
+                    font-size: 12px;
+                    padding: 6px;
+
+
+                    @include lg {
+                        font-size: 14px;
+                        padding: 12px;
+                    }
+                }
+
+                .v2 {
+                    background-color: white;
+                    color: black;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+
+        .bannerHeadphone {
+            height: 350px;
+            width: 350px;
+            position: relative;
+            z-index: 9;
+            // margin-bottom: 20px;
+            justify-content: center;
+            
+
+            @include sm {
+                // left: 18%;
+                // height: 450px;
+                // width: 450px;
+            }
+
+            @include md {
+                height: 400px;
+                width: 400px;
+                // right: 5%;
+                position: static;
+                // bottom: 40px;
+                // left: 300px;
+            }
+
+            @include lg {
+                left: 400px;
+                height: 600px;
+                width: 600px;
+                align-items: center;
+            }
+        }
+    }
+}

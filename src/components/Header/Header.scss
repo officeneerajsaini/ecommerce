@@ -1,0 +1,136 @@
+@import "../../css-config/mixins.scss";
+
+.main-header {
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    z-index: 75;
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        height: 64px;
+        justify-content: space-evenly;
+        
+        @include md {
+            justify-content: space-evenly;
+        }
+        @include lg {
+            padding: 0 35px;
+        }
+
+        @include xxl {
+            padding: 0 70px;
+        }
+
+        .left {
+            display: flex;
+            list-style-type: none;
+            gap: 16px;
+
+            @include md {
+                visibility: visible;
+                padding-right: 400px;
+            }
+
+            @include lg {
+                padding-right: 700px;
+            }
+
+            @include xxl {
+                padding-right: 900px;
+            }
+
+            .headerLi {
+                color: white;
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: none;
+                cursor: pointer;
+                
+                @include md {
+                    font-size: 16px;
+
+                }
+
+                &:hover {
+                    color: #8e2de2;
+                }
+            }
+        }
+
+        .center {
+            position: static;
+            font-size: 20px;
+            // margin-left: -10rem;
+            font-weight: 700;
+            cursor: default;
+            
+            @include md {
+                position: absolute;
+                font-size: 30px;
+            }
+
+            @include lg {
+                margin-left: 0;
+            }
+        }
+
+        .right {
+            display: flex;
+            visibility: hidden;
+            align-items: center;
+            position: absolute;
+            // left: 225px;
+            gap: 2px;
+            // padding-left: 224px;
+            font-size: 20px;
+            cursor: pointer;
+            
+            @include md {
+                visibility: visible;
+                position: static;
+            }
+
+            @include lg {
+                position: static;
+                left: 0;
+                gap: 4px;
+                padding-left: 0;
+            }
+
+            .spanIcon {
+                color: white;
+                font-size: 20px;
+                &:hover {
+                    color: #8e2de2;
+                }
+            }
+
+            .cart-icon {
+                font-size: 20px;
+                cursor: pointer;
+                position: relative;
+
+                span {
+                    color: white;
+                    min-width: 15px;
+                    text-align: center;
+                    background-color: #8e2de2;
+                    padding: 2px;
+                    position:absolute ;
+                    top: -7px;
+                    left: 8px;
+                    font-size:10px;
+                    line-height: 1;
+                    border-radius: 20px;
+
+                    &:hover {
+                        color: #8e2de2;
+                    }
+                }
+            }
+        }
+    }
+}

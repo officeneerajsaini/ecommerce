@@ -1,0 +1,100 @@
+@import "../../css-config/mixins.scss";
+
+
+
+.footer {
+    width: 100%;
+    background-color: #8490FF;
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+        // gap: 10px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+        @include md {
+            // padding: 50px 0px;
+        }
+        
+        .col {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            max-width: 200px;
+
+            .title {
+                margin-bottom: 20px;
+                font-size: 16px;
+                font-weight: 700;
+                color: rgba(11, 35, 57, 0.851);
+
+                @include md {
+                    font-size: 20px;
+                }
+            }
+
+            .text1 {
+                color: rgb(0, 0, 0);
+                margin-bottom: 5px;
+                cursor: pointer;
+                display: block;
+                font-size: 14px;
+
+            }
+
+            .c-item {
+                display: flex;
+
+                svg {
+                    flex-shrink: 0;
+                    font-size: 16px;
+                    margin-right: 10px;
+                    margin-top: 4px;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+
+    .bottom-bar {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+        .bottom-bar-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+
+            @include md {
+                padding: 0px;
+                height: 60px;
+                margin: auto 0px;
+                text-align :left;
+                justify-content:space-between;
+                text-align:left;
+            }
+
+            .txt {
+                font-weight: 700;
+                color: rgba(49, 48, 48, 0.686);
+                padding: 10px 0px;
+                display: flex;
+                flex: auto;
+                font-size: 12px;
+                align-items: center;
+                text-align: center;
+                
+                @include md {
+                    font-size: 14px;
+                }
+                @include lg {
+                    font-size: 16px;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af6484b4.css",
+    "main.js": "/static/js/main.90add205.js",
+    "static/js/787.3c3ca93d.chunk.js": "/static/js/787.3c3ca93d.chunk.js",
+    "static/media/bannerHeadphone.png": "/static/media/bannerHeadphone.f67e631d381d06fcbad1.png",
+    "static/media/NewsletterImg.jpg": "/static/media/NewsletterImg.0c5c9f1d6eb26b0b6fa8.jpg",
+    "static/media/main3_6370be21-3c2f-48a8-bb18-edc49a667081_600x.png": "/static/media/main3_6370be21-3c2f-48a8-bb18-edc49a667081_600x.45ed73e0f379504c6c66.png",
+    "static/media/main3_9230f72d-9f86-4aec-9ae2-a7d87d332877_600x.png": "/static/media/main3_9230f72d-9f86-4aec-9ae2-a7d87d332877_600x.d92c181d4c8bbae1584d.png",
+    "index.html": "/index.html",
+    "main.af6484b4.css.map": "/static/css/main.af6484b4.css.map",
+    "main.90add205.js.map": "/static/js/main.90add205.js.map",
+    "787.3c3ca93d.chunk.js.map": "/static/js/787.3c3ca93d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af6484b4.css",
+    "static/js/main.90add205.js"
+  ]
+}

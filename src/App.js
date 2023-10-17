@@ -10,7 +10,7 @@ import Newsletter from "./components/Newsletter/Newsletter.jsx";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import SingleProduct from "./components/SingleProduct/SingleProduct";
-import AppContext from "./utils/context";
+// import AppContext from "./utils/context";
 
 
 
@@ -18,7 +18,7 @@ import AppContext from "./utils/context";
 function App() {
   return (
     <BrowserRouter>
-      <AppContext>
+      {/* <AppContext> */}
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
         </Routes>
         <Newsletter />
         <Footer />
-      </AppContext>
+      {/* </AppContext> */}
     </BrowserRouter>
 
   );

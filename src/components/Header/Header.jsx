@@ -7,7 +7,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 import Search from "./Serach/Search"; 
 import Cart from "../Cart/Cart";
-import { context } from "../../utils/context";
+// import { context } from "../../utils/context";
 import "./Header.scss";
 
 function Header() {

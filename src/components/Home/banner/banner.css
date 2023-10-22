@@ -1,0 +1,55 @@
+.hero-banner {
+    padding: 40px 0;
+    position:relative;
+    background-image: linear-gradient(to right , #8e2de2, #4a00e0);
+}
+.bannerHeadphone {
+    /* height: 400px;
+    width: 400px; */
+    position: relative;
+    z-index: 9;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+
+}
+.content {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    
+}
+
+.text-contents {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1{
+ margin-bottom: 5px;
+ margin:0 auto;
+}
+
+.p2 {
+    max-width: 540px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.ctas {
+    display: flex;
+    justify-content: center;
+}
+.banner-cta{
+text-transform: uppercase;
+font-weight: 500;
+border: 2px solid white;
+}
+.v2{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,84 @@
+.newsletter-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background: white url(../Newsletter/NewsletterImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newsletter-content {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.small-text {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: rgba(255, 251, 0, 0.891);
+}
+.big-text {
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+.form {
+    display: flex;
+    gap:5px;
+    margin-bottom: 10px;
+}
+input {
+    width: 150px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255,0.2) ;
+    padding: 0 12px;
+    font-size: 12px;
+    outline: 0;
+}
+.button {
+    outline: 0;
+    border: 0;
+    height: 32px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 11px;
+    color: rgb(255, 255, 255) ;
+    background-color:#8e2de2 ;
+    border-bottom: 3px solid #8e2de2;
+    border-radius: 5px;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.55);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fa{
+    color: rgb(221, 224, 160);
+    margin: auto;
+}
+.text {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 9px;
+    margin-bottom: 20px;
+}

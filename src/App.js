@@ -20,11 +20,13 @@ function App() {
     <BrowserRouter>
       {/* <AppContext> */}
         <Header />
-        <Routes>
+        {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/category/:id" element={<Category />} />
           <Route path="/product/:id" element={<SingleProduct />} />
-        </Routes>
+        </Routes> */}
+        <Home/>
+        <Category/>
         <Newsletter />
         <Footer />
       {/* </AppContext> */}
